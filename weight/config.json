@@ -1,0 +1,16 @@
+{
+  "architectures": [
+    "AIGMAEModel_cross"
+  ],
+  "cross_hidden_size": 3584,
+  "cross_num_heads": 8,
+  "freeze": false,
+  "hidden_size": 64,
+  "num_classes": 4,
+  "num_cross_decoder_layers": 2,
+  "num_encoder_layers": 7,
+  "num_graph_layers": 3,
+  "num_hidden_layers": 4,
+  "torch_dtype": "float32",
+  "transformers_version": "4.20.1"
+}
