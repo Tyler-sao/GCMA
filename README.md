@@ -18,8 +18,6 @@ GCMA learns circuit representations from And-Inverter Graphs (AIGs) and Verilog-
 
 ## Environment Requirements
 
-GCMA uses the same software environment as [Cross Modal Graph Matching for Verilog–AIG Alignment](https://github.com/zhongmoxingzhe/Cross_Modal_Graph_Matching_for_Verilog_AIG_Alignment).
-
 Install the following package versions:
 
 ```text
@@ -40,8 +38,6 @@ transformers==4.20.1
 The PyTorch build above targets CUDA 11.3. Make sure the CUDA runtime, PyTorch, and PyTorch Geometric binary packages are mutually compatible.
 
 ## Data
-
-GCMA uses the same data as [Cross Modal Graph Matching for Verilog–AIG Alignment](https://github.com/zhongmoxingzhe/Cross_Modal_Graph_Matching_for_Verilog_AIG_Alignment).
 
 The generated data is available from Baidu Netdisk:
 
@@ -159,9 +155,7 @@ The QoR evaluator reports regression loss, NDCG@3/5/10, and Top-3%/5%/10% common
 
 ## Acknowledgements
 
-This project uses the same data sources and software environment as [Cross Modal Graph Matching for Verilog–AIG Alignment](https://github.com/zhongmoxingzhe/Cross_Modal_Graph_Matching_for_Verilog_AIG_Alignment).
-
-We also acknowledge the following projects and resources:
+We acknowledge the following projects and resources:
 
 - [OpenABC / OpenABC-D](https://github.com/NYU-MLDA/OpenABC)
 - [EPFL combinational benchmark suite](https://www.epfl.ch/labs/lsi/benchmarks)
